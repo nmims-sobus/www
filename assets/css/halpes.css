@@ -255,7 +255,6 @@ h6 {
     position: relative;
     width: 15%;
     float: left;
-    background-color: var(--thm-primary);
     text-align: center;
     padding: 44px 0;
 }
@@ -2310,7 +2309,7 @@ h6 {
 .causes-one__content {
     position: relative;
     display: block;
-    padding: 26px 30px 20px;
+    padding: 26px 30px 0px;
 }
 
 .causes-one__title {
@@ -2339,63 +2338,7 @@ h6 {
     display: block;
     width: 100%;
     background: #eff5f4;
-    padding: 60px 30px 21px;
-}
-
-.causes-one__progress .bar {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #ffffff;
-    border-radius: 5px;
-    margin-bottom: 6px;
-}
-
-.causes-one__progress .bar-inner {
-    position: relative;
-    display: block;
-    width: 0px;
-    height: 10px;
-    border-radius: 5px;
-    background: var(--thm-primary);
-    -webkit-transition: all 1500ms ease;
-    -ms-transition: all 1500ms ease;
-    -o-transition: all 1500ms ease;
-    -moz-transition: all 1500ms ease;
-    transition: all 1500ms ease;
-}
-
-.causes-one__progress .count-text {
-    position: absolute;
-    right: -40px;
-    bottom: 20px;
-    color: #ffffff;
-    line-height: 20px;
-    font-size: 12px;
-    text-align: center;
-    font-weight: 800;
-    opacity: 0;
-    -webkit-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    transition: all 500ms ease;
-    height: 20px;
-    width: 40px;
-    background: var(--thm-primary);
-}
-
-.causes-one__progress .bar-inner.counted .count-text {
-    opacity: 1;
-}
-
-.causes-one__progress .count-text:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 100%;
-    border-right: 7px solid transparent;
-    border-top: 5px solid var(--thm-primary);
+    padding: 12px 30px 21px;
 }
 
 .causes-one__goals {
@@ -6936,7 +6879,6 @@ h6 {
 
 .contact-page__contact-list li .text h5 {
     font-size: 20px;
-    color: var(--thm-black);
     font-weight: 800;
     line-height: 30px;
 }
@@ -6945,13 +6887,12 @@ h6 {
     position: relative;
     display: block;
     margin-left: -30px;
+
 }
 
 .contact-page__main-form {
     position: relative;
     display: block;
-    background: #eff5f4;
-    padding: 60px;
 }
 
 .contact-page__main-form .row {
